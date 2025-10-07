@@ -17,6 +17,10 @@ ul {
     list-style: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -35,9 +39,9 @@ section {
     padding: 80px;
 }
 
-header {
+header, .hero {
     background-color: #1f2937;
-    color: #fff;
+
 }
 
 .header-logo {
@@ -65,6 +69,48 @@ nav ul {
 .header-link:hover {
     color: #f9faf8;
 }
+
+.flex-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+}
+
+.left-hero {
+    flex: 1;
+}
+
+.right-hero {
+    flex: 1;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.hero-button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
 .quote {
     background-color: #e5e7eb;
     color: #fff;
@@ -97,8 +143,7 @@ figcaption {
     display: flex;
     align-items: center;
     gap: 150px;
-    
-    
+  
 }
 
 
