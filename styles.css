@@ -7,6 +7,16 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -25,6 +35,36 @@ section {
     padding: 80px;
 }
 
+header {
+    background-color: #1f2937;
+    color: #fff;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header-link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-link:hover {
+    color: #f9faf8;
+}
 .quote {
     background-color: #e5e7eb;
     color: #fff;
