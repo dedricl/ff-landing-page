@@ -124,6 +124,14 @@ nav ul {
   gap: 40px;
 }
 
+@media (max-width: 600px) {
+  .services-flex,
+  .inner-container.cta-flex-container {
+    flex-direction: column;
+    /* gap: 20px; */
+  }
+}
+
 .service-img {
   border-radius: 5px;
 }
